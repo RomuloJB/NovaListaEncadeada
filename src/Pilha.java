@@ -1,8 +1,8 @@
-public class Fila {
+public class Pilha {
 
     private ListaEncadeada lista;
 
-    public Fila() {
+    public Pilha() {
         lista = new ListaEncadeada();
     }
 
@@ -19,13 +19,13 @@ public class Fila {
     }
 
     public static void main(String[] args) {
-        Fila fila = new Fila();
+        Pilha pilha = new Pilha();
 
-        fila.empilhar(5);
-        fila.empilhar(15);
-        fila.empilhar(25);
-        fila.desempilhar();
+        pilha.empilhar(5);
+        pilha.empilhar(15);
+        pilha.empilhar(25);
+        pilha.desempilhar();
 
-        fila.imprimirFila();
+        pilha.imprimirPilha();
     }
 }
